@@ -1,5 +1,5 @@
 /**
- * MacGyver Table v0.1.0
+ * MacGyver Table v0.4.0
  * @link http://angular-macgyver.github.io/macgyver-table
  * @license MIT
  */
