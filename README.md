@@ -1,6 +1,10 @@
 MacGyver Table
 ===
 
+![Build Status](http://img.shields.io/travis/angular-macgyver/macgyver-table.svg?style=flat)
+![Tag](http://img.shields.io/github/tag/angular-macgyver/macgyver-table.svg?style=flat)
+![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)
+
 Yet another AngularJS table solution
 
 ## 3rd party libraries dependencies ##
