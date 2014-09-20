@@ -17,14 +17,12 @@ module.exports = (grunt) ->
     "stylus"
     "concat"
     "clean"
-    "replace:src"
     "chalkboard"
     "marked"
     "replace:docs"
     "replace:version"
     "karma:build"
     "uglify:dist"
-    "tag"
   ]
 
   grunt.registerTask "compile", "Compile files", [

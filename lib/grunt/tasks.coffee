@@ -87,22 +87,3 @@ module.exports = (grunt) ->
 
       grunt.log.writeln stdout
       done()
-
-  ###
-  @name tag
-  @description
-  Create a new commit and tag the commit with a version number
-  ###
-  grunt.registerTask "tag", "Tag latest commit", ->
-    done    = @async()
-    version = grunt.config.get("pkg").version
-
-    CMD = [
-      "git commit -am 'chore(build): Build v#{version}'"
-      "git tag v#{version}"
-    ].join "&&"
-
-    child.exec CMD, (error, stdout, stderr) ->
-      grunt.fail.fatal "Failed to tag" if error?
-      grunt.log.writeln stdout
-      done()
