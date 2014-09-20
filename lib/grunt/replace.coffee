@@ -21,5 +21,6 @@ module.exports = (grunt) ->
         pattern: /@@version/g
         replace: "<%= pkg.version %>"
       files: [
-        src: ['index.html']
+        src:  ['index.html']
+        dest: 'index.html'
       ]
