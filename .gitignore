@@ -1,0 +1,11 @@
+# Node packages
+node_modules
+
+# Bower vendor files
+bower_components
+
+# Temp
+tmp
+
+# System file types
+.DS_Store

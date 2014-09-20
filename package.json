@@ -1,0 +1,47 @@
+{
+  "author": "Adrian Lee <adrian@adrianlee.me>",
+  "name": "macgyver-table",
+  "description": "MacGyver table",
+  "version": "0.4.0",
+  "homepage": "http://angular-macgyver.github.io/macgyver-table",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:angular-macgyver/macgyver-table.git"
+  },
+  "engines": {
+    "node": "0.10"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular-macgyver/macgyver-table/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "grunt": "~0.4.1",
+    "grunt-bump": "0.0.14",
+    "grunt-chalkboard": "~0.2.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-connect": "^0.6.0",
+    "grunt-contrib-stylus": "^0.15.1",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "0.8.2",
+    "karma-coffee-preprocessor": "~0.2.1",
+    "karma-jasmine": "~0.1.0",
+    "karma-ng-html2js-preprocessor": "0.1.0",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma-sauce-launcher": "~0.1.8",
+    "marked": "~0.2.9",
+    "matchdep": "~0.1.2",
+    "protractor": "^1.0.0",
+    "time-grunt": "^0.3.1"
+  }
+}
